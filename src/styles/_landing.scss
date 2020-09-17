@@ -1,0 +1,199 @@
+html, body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+    .banner-text {
+        margin-bottom: 5em;
+    }
+    
+    .grow-container {
+        margin: auto;
+        width: 100%;
+        height: 200px;
+    
+        .grow-title {
+            margin: auto;
+            text-align: center;
+            margin-top: 3em;
+        }
+    
+        .signup {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;
+            padding: 2em;
+    
+            .consult {
+                border: none;
+                padding:20px;
+                height: 45px;
+                margin: auto;
+                text-align: center;
+            }
+    
+            p {
+                padding: 35px;
+                margin-top: 3em;
+            }
+    
+            .call {
+                border: none;
+                padding:20px;
+                height: 45px;
+                margin: auto;
+                text-align: center;
+            }
+        }
+    
+    }
+    
+    .header-bar {
+        display: block;
+        width: 100%;
+        height: 150px;
+        padding: 0;
+        margin: auto;
+        text-align: center;
+        background: rgba($color: #5ba3f7, $alpha: 1.0);
+        color: white;
+    
+        ul {
+
+            li {
+                display: inline-block;
+                list-style: none;
+                padding: 4em;
+                margin-top: .5em;
+            }
+        }
+    }
+
+    .main-content {
+
+        .mission-statement {
+            display: inline-block;
+            background: white;
+            width: 100%;
+            padding: 35px;
+
+            
+            .stock {
+                width: 40%;
+                height: 325px;
+                margin-top: 25px;
+                border-right: 1px solid rgba(91, 163, 247, 0.3);
+                border-bottom: 1px solid rgba(91, 163, 247, 0.3);
+                padding: 0 20px 20px 0;
+                margin-bottom: 5px;
+            }
+
+            .statement {
+                width: 50%;
+                float: right;
+                margin-right: 35px;
+
+                span {
+                    display: block;
+                    text-align: center;
+                    font-size: 80px;
+                }
+
+                h5 {
+                    text-align: center;
+                }
+
+                p {
+                    margin-top: 35px;
+                }
+            }
+        }
+
+        .capabilities {
+            display: inline-block;
+            background: url(../images/capabilities.gif);
+            opacity: 0.9;
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 900px;
+            padding: 35px;
+            color: white;
+            
+            span {
+                display: block;
+                text-align: center;
+                font-size: 40px;
+            }
+
+            ul {
+                -moz-column-count: 2;
+                -moz-column-gap: 20px;
+                -webkit-column-count: 2;
+                -webkit-column-gap: 20px;
+                column-count: 2;
+                column-gap: 20px;
+                padding-bottom: 45px;
+                margin-bottom: 50px;
+                height: auto;
+            
+                li {
+                    display: block;
+                    list-style: none;
+                    padding: 4em;
+                    margin-top: .5em;
+
+                    img {
+                        height: 80px;
+                        width: 145px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-short {
+        padding: 35px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    .portfolio {
+        padding: 35px;
+        display: inline-block;
+
+        .client-1 {
+            display: inline-block;
+            width: 100%;
+
+            img {
+                width: 30%;
+                padding: 20px;
+                height: auto;
+            }
+
+            .client-1-info {
+                width: 50%;
+                float: right;
+                background: white;
+                padding: 20px;
+                height: auto;
+            }
+        }
+    }
+    
+    Footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }

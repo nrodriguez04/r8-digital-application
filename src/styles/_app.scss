@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+html, body {
+    overflow: hidden;
+}
+
+div.mdl-layout__header-row {
+    background: rgba($color: #5ba3f7, $alpha: 1.0);
+}
+
+span.logo {
+    display: block;
+    position: absolute;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    float: left;
+    color: black;
+    margin-right: 35px;
+}
